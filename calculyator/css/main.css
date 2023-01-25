@@ -1,0 +1,43 @@
+ * {
+	margin: 0;
+	padding: 0;
+}
+
+.calculator {
+	position: absolute;
+	top: 10%;
+	left: 35%;
+	transform: translate(-50%,-50%,);
+	padding: 10px;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, rgba(77, 77, 179, 0.562), rgb(80, 38, 38),rgb(0, 0, 0));
+}
+
+button {
+	width: 55px;
+	height: 55px;
+	outline: none;
+	box-shadow: none;
+	margin: 2;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, #ccc,#fff);
+}
+  
+.clear,.back {
+	width: 115px;
+} 
+  
+.result {
+	width: 225px;
+	height: 80px;
+	background: #EEE;
+	text-align: right;
+	padding: 2px;
+	border-radius: 10px;
+	box-shadow: none;
+	outline: none;
+	font-size: 20px;
+	font-family: tahoma;
+}    
